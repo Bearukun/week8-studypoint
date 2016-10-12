@@ -5,20 +5,16 @@
  */
 package gitrepo;
 
-/**
- *
- * @author Ceo
- */
+
 public class Person {
     
     String firstName;
     String lastName;
+     String nickname = "Benny ze killer";
 
     @Override
     public String toString() {
-        return "This is Sir. :" + lastName + " of " + firstName;
+        return "This is Sir. :" + lastName + " of " + firstName + " and " + nickname;
     }
-    
-    
-    
 }
+
